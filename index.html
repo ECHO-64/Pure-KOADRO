@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOADRO</title>
+    <!-- ________________ Styles Files ________________ -->
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="imgs/favicon/code.svg"
+      type="image/x-icon"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- animation css -->
+    <link rel="stylesheet" href="css/animation.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Start settings box -->
+    <div class="toggle-box">
+      <i class="toggle-st fa fa-gear"></i>
+    </div>
+    <div class="st-box">
+      <div class="option-box">
+        <p>colors</p>
+        <ul class="colors f-between">
+          <li data-color="rgba(0 188 212 / 1)" class="active"></li>
+          <li data-color="rgba(233 30 99 / 1)"></li>
+          <li data-color="rgba(255 87 34 / 1)"></li>
+          <li data-color="rgba(255 152 0 / 1)"></li>
+          <li data-color="rgba(244 67 54 / 1)"></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <p>choose background</p>
+        <div class="choose-bg f-around"></div>
+        <ul class="bgs">
+          <li data-number="1"><img src="imgs/land-imgs/land1.jpg" /></li>
+          <li data-number="2"><img src="imgs/land-imgs/land2.jpg" /></li>
+          <li data-number="3"><img src="imgs/land-imgs/land3.jpg" /></li>
+          <li data-number="4"><img src="imgs/land-imgs/land4.jpg" /></li>
+          <li data-number="5"><img src="imgs/land-imgs/land5.jpg" /></li>
+          <li data-number="6"><img src="imgs/land-imgs/land6.jpg" /></li>
+          <li data-number="7"><img src="imgs/land-imgs/land7.jpg" /></li>
+          <li data-number="8"><img src="imgs/land-imgs/land8.jpg" /></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <p>fixed header</p>
+        <div class="fixed-header f-around">
+          <button class="yes">yes</button>
+          <button class="no active">no</button>
+        </div>
+      </div>
+      <div class="option-box">
+        <p>scroll to top button</p>
+        <div class="to-top-op f-around">
+          <button class="yes active">yes</button>
+          <button class="no">no</button>
+        </div>
+      </div>
+      <div class="option-box">
+        <p>scroll bullets</p>
+        <div class="bullets-op f-around">
+          <button class="yes active">yes</button>
+          <button class="no">no</button>
+        </div>
+      </div>
+      <button class="reset-st">reset</button>
+    </div>
+    <!-- End Settings Box  -->
+    <!-- Start bullets Box  -->
+    <div class="bullets-box">
+      <div class="bullet" data-section="home"></div>
+      <div class="bullet" data-section="about"></div>
+      <div class="bullet" data-section="skills"></div>
+      <div class="bullet" data-section="gallery"></div>
+      <div class="bullet" data-section="timeline"></div>
+      <div class="bullet" data-section="features"></div>
+      <div class="bullet" data-section="testimonials"></div>
+      <div class="bullet" data-section="contact"></div>
+    </div>
+    <!-- End bullets Box  -->
+    <!-- Scroll to top btn -->
+    <button class="to-top">
+      <i class="fas fa-hand-pointer"></i>
+    </button>
+    <!-- Start Header -->
+    <header class="top-header">
+      <div class="container f-center">
+        <a href="index.html" class="logo">KOADRO</a>
+        <button class="nav-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="navigation">
+          <ul class="nav-ul">
+            <li><a href="#" class="nav-a" data-section="home">home</a></li>
+            <li><a href="#" class="nav-a" data-section="about">about</a></li>
+            <li>
+              <a href="#" class="nav-a" data-section="skills">skills</a>
+            </li>
+            <li>
+              <a href="#" class="nav-a" data-section="gallery">gallery</a>
+            </li>
+            <li>
+              <a href="#" class="nav-a" data-section="timeline">time line</a>
+            </li>
+            <li>
+              <a href="#" class="nav-a" data-section="features">features</a>
+            </li>
+            <li>
+              <a href="#" class="nav-a" data-section="testimonials"
+                >testimonials</a
+              >
+            </li>
+            <li>
+              <a href="#" class="nav-a" data-section="contact">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing Page -->
+    <div class="landing home">
+      <div class="introduction">
+        <h1>we are<span> creative</span> agency</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. consectetur
+          quos minus adipisicing elit.
+        </p>
+      </div>
+    </div>
+    <!-- End Landing Page -->
+    <!-- Strat About Section -->
+    <div class="container">
+      <div class="about f-center">
+        <div class="info-box">
+          <h1 class="head">about us</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+            porro architecto voluptatum optio sed earum quibusdam commodi
+            eveniet exercitationem minima molestias quo a voluptates ea, dicta
+            quisquam ipsa sapiente. Reiciendis atque at nam, doloribus eum id
+            odit eaque sequi aperiam vel debitis. In, cupiditate unde. Beatae,
+            iusto quisquam.
+          </p>
+          <button class="m-btn">
+            <i class="fas fa-hand-point-right"></i>
+            read more
+          </button>
+        </div>
+        <div class="img-box">
+          <img src="imgs/about-imgs/about.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End About Us Section -->
+    <!-- Start Skills Section -->
+    <div class="skills">
+      <div class="container">
+        <h1 class="head">our skills</h1>
+        <div class="skills-wrapper">
+          <div class="skill">
+            <div class="skill-name">photoshop</div>
+            <div class="skill-prog" data-prog="80%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">html</div>
+            <div class="skill-prog" data-prog="90%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">css</div>
+            <div class="skill-prog" data-prog="85%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">javascript</div>
+            <div class="skill-prog" data-prog="83%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Typescript</div>
+            <div class="skill-prog" data-prog="90%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Sass</div>
+            <div class="skill-prog" data-prog="90%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Bootstrap</div>
+            <div class="skill-prog" data-prog="77%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Vue</div>
+            <div class="skill-prog" data-prog="85%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">GlupJs</div>
+            <div class="skill-prog" data-prog="80%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">PugJs</div>
+            <div class="skill-prog" data-prog="74%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Unit Testing</div>
+            <div class="skill-prog" data-prog="70%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">OOP</div>
+            <div class="skill-prog" data-prog="85%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">jQuery</div>
+            <div class="skill-prog" data-prog="75%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">PHP</div>
+            <div class="skill-prog" data-prog="92%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Laravel</div>
+            <div class="skill-prog" data-prog="85%"></div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">mySql</div>
+            <div class="skill-prog" data-prog="78%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Skills Section -->
+    <!-- Start Gallery Section -->
+    <div class="gallery">
+      <div class="container">
+        <h1 class="head">our gallery</h1>
+        <ul class="gallery-list f-around">
+          <li>
+            <button class="m-btn active veiw-all">
+              <i class="fas fa-calendar-check"></i>
+              gallery
+            </button>
+          </li>
+
+          <li>
+            <button class="m-btn" data-filter=".draw">
+              <i class="fas fa-palette"></i>
+              draw
+            </button>
+          </li>
+
+          <li>
+            <button class="m-btn" data-filter=".vehicles">
+              <i class="fas fa-truck-monster"></i>
+              vehicles
+            </button>
+          </li>
+
+          <li>
+            <button class="m-btn" data-filter=".nature">
+              <i class="fab fa-canadian-maple-leaf"></i>
+              nature
+            </button>
+          </li>
+        </ul>
+        <div class="gallery-imgs">
+          <div
+            class="img-div vehicles"
+            data-caption="picture #01"
+            data-desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+          porro architecto voluptatum optio sed earum quibusdam commodi"
+          >
+            <img src="imgs/gallery-imgs/g1.jpg" alt="" />
+          </div>
+          <div
+            class="img-div draw"
+            data-caption="picture #02"
+            data-desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+          porro architecto voluptatum optio sed earum quibusdam commodi"
+          >
+            <img src="imgs/gallery-imgs/g2.jpg" alt="" />
+          </div>
+          <div
+            class="img-div draw"
+            data-caption="picture #03"
+            data-desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+          porro architecto voluptatum optio sed earum quibusdam commodi"
+          >
+            <img src="imgs/gallery-imgs/g3.jpg" alt="" />
+          </div>
+          <div
+            class="img-div draw"
+            data-caption="picture #04"
+            data-desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+          porro architecto voluptatum optio sed earum quibusdam commodi"
+          >
+            <img src="imgs/gallery-imgs/g4.jpg" alt="" />
+          </div>
+          <div
+            class="img-div vehicles"
+            data-caption="picture #05"
+            data-desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+          porro architecto voluptatum optio sed earum quibusdam commodi"
+          >
+            <img src="imgs/gallery-imgs/g5.jpg" alt="" />
+          </div>
+          <div
+            class="img-div nature"
+            data-caption="picture #06"
+            data-desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+          porro architecto voluptatum optio sed earum quibusdam commodi"
+          >
+            <img src="imgs/gallery-imgs/g6.jpg" alt="" />
+          </div>
+          <div
+            class="img-div nature"
+            data-caption="picture #07"
+            data-desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+          porro architecto voluptatum optio sed earum quibusdam commodi"
+          >
+            <img src="imgs/gallery-imgs/g7.jpg" alt="" />
+          </div>
+          <div
+            class="img-div nature"
+            data-caption="picture #08"
+            data-desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+          porro architecto voluptatum optio sed earum quibusdam commodi"
+          >
+            <img src="imgs/gallery-imgs/g8.jpg" alt="" />
+          </div>
+          <div
+            class="img-div nature"
+            data-caption="picture #09"
+            data-desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+          porro architecto voluptatum optio sed earum quibusdam commodi"
+          >
+            <img src="imgs/gallery-imgs/g9.jpg" alt="" />
+          </div>
+          <div
+            class="img-div vehicles"
+            data-caption="picture #10"
+            data-desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+          porro architecto voluptatum optio sed earum quibusdam commodi"
+          >
+            <img src="imgs/gallery-imgs/g10.jpg" alt="" />
+          </div>
+          <div
+            class="img-div nature"
+            data-caption="picture #11"
+            data-desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+          porro architecto voluptatum optio sed earum quibusdam commodi"
+          >
+            <img src="imgs/gallery-imgs/g11.jpg" alt="" />
+          </div>
+          <div
+            class="img-div nature"
+            data-caption="picture #12"
+            data-desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+          porro architecto voluptatum optio sed earum quibusdam commodi"
+          >
+            <img src="imgs/gallery-imgs/g12.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Gallery Section -->
+    <!-- Start Timeline Section -->
+    <div class="timeline">
+      <div class="container">
+        <h1 class="head">our time line</h1>
+        <div class="content-box">
+          <div class="timeline-year">2022</div>
+          <div class="right">
+            <h3>Timeline name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+              aut odit culpa nam ut commodi consequatur soluta labore unde
+              tempore iusto numquam. Exercitationem repellat, eligendi dolores
+              vel animi possimus velit?
+            </p>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <h3>Timeline name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+              aut odit culpa nam ut commodi consequatur soluta labore unde
+              tempore iusto numquam. Exercitationem repellat, eligendi dolores
+              vel animi possimus velit?
+            </p>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <h3>Timeline name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+              aut odit culpa nam ut commodi consequatur soluta labore unde
+              tempore iusto numquam. Exercitationem repellat, eligendi dolores
+              vel animi possimus velit?
+            </p>
+          </div>
+          <div class="clearfix"></div>
+          <div class="timeline-year">2021</div>
+          <div class="left">
+            <h3>Timeline name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+              aut odit culpa nam ut commodi consequatur soluta labore unde
+              tempore iusto numquam. Exercitationem repellat, eligendi dolores
+              vel animi possimus velit?
+            </p>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <h3>Timeline name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+              aut odit culpa nam ut commodi consequatur soluta labore unde
+              tempore iusto numquam. Exercitationem repellat, eligendi dolores
+              vel animi possimus velit?
+            </p>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <h3>Timeline name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+              aut odit culpa nam ut commodi consequatur soluta labore unde
+              tempore iusto numquam. Exercitationem repellat, eligendi dolores
+              vel animi possimus velit?
+            </p>
+          </div>
+          <div class="clearfix"></div>
+          <div class="timeline-year">2020</div>
+          <div class="right">
+            <h3>Timeline name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+              aut odit culpa nam ut commodi consequatur soluta labore unde
+              tempore iusto numquam. Exercitationem repellat, eligendi dolores
+              vel animi possimus velit?
+            </p>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <h3>Timeline name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+              aut odit culpa nam ut commodi consequatur soluta labore unde
+              tempore iusto numquam. Exercitationem repellat, eligendi dolores
+              vel animi possimus velit?
+            </p>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <h3>Timeline name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+              aut odit culpa nam ut commodi consequatur soluta labore unde
+              tempore iusto numquam. Exercitationem repellat, eligendi dolores
+              vel animi possimus velit?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Timeline Section -->
+    <!-- start features Section -->
+    <div class="features">
+      <div class="container">
+        <h1 class="head">our features</h1>
+        <div class="features-container f-around">
+          <div class="feature-box">
+            <img src="imgs/features/awsome.ico" alt="" />
+            <h4>awesome design</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam,
+              minima animi amet sequi enim libero.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <img src="imgs/features/resbonsive.ico" alt="" />
+            <h4>responsive design</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam,
+              minima animi amet sequi enim libero.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <img src="imgs/features/full-control.ico" alt="" />
+            <h4>full control</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam,
+              minima animi amet sequi enim libero.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <img src="imgs/features/protuct.ico" alt="" />
+            <h4>protuct you</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam,
+              minima animi amet sequi enim libero.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <img src="imgs/features/support.ico" alt="" />
+            <h4>24/7 support</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam,
+              minima animi amet sequi enim libero.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <img src="imgs/features/server.ico" alt="" />
+            <h4>high storage</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam,
+              minima animi amet sequi enim libero.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <img src="imgs/features/problem.ico" alt="" />
+            <h4>solve problems</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam,
+              minima animi amet sequi enim libero.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <img src="imgs/features/android.ico" alt="" />
+            <h4>android app</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam,
+              minima animi amet sequi enim libero.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End features Section -->
+    <!-- Start testimonials Section -->
+    <div class="testimonials">
+      <div class="container">
+        <h1 class="head">testimonials</h1>
+        <div class="t-container">
+          <div class="t-box">
+            <i class="fas fa-quote-left t-quote"></i>
+            <p class="t-review">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur,
+              ipsam. Recusandae molestias ad animi. Velit, nam sapiente illum
+              voluptate magni sint fugit
+            </p>
+            <div class="t-info">
+              <img
+                class="t-img"
+                src="imgs/testimonials/user1.png"
+                alt="te-img"
+              />
+              <p class="t-name">jhon doe</p>
+              <div class="t-social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+            </div>
+          </div>
+          <div class="t-box">
+            <i class="fas fa-quote-left t-quote"></i>
+            <p class="t-review">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur,
+              ipsam. Recusandae molestias ad animi. Velit, nam sapiente illum
+              voluptate magni sint fugit
+            </p>
+            <div class="t-info">
+              <img
+                class="t-img"
+                src="imgs/testimonials/user2.png"
+                alt="te-img"
+              />
+              <p class="t-name">jhon doe</p>
+              <div class="t-social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+            </div>
+          </div>
+          <div class="t-box">
+            <i class="fas fa-quote-left t-quote"></i>
+            <p class="t-review">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur,
+              ipsam. Recusandae molestias ad animi. Velit, nam sapiente illum
+              voluptate magni sint fugit
+            </p>
+            <div class="t-info">
+              <img
+                class="t-img"
+                src="imgs/testimonials/user3.png"
+                alt="te-img"
+              />
+              <p class="t-name">jhon doe</p>
+              <div class="t-social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End testimonials Section -->
+    <!-- Start Contact Us Section -->
+    <div class="contact">
+      <div class="container">
+        <h1 class="head">contact us</h1>
+        <div class="contact-container f-between">
+          <div class="info">
+            <p></p>
+            <div>
+              <i class="fas fa-location-dot"></i> Address, City, Country
+            </div>
+            <div><i class="fas fa-at"></i> Contact@email.com</div>
+            <div><i class="fas fa-phone"></i> +201-000-000-000</div>
+            <div><i class="fas fa-clock"></i> Mon - Fri 8:00 AM to 5:00 PM</div>
+          </div>
+          <div class="feilds">
+            <h2>Have you any question?</h2>
+            <form action="#" method="post">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="text-box"
+                placeholder="your name"
+                autocomplete="off"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="text-box"
+                placeholder="your email"
+                autocomplete="off"
+                required
+              />
+              <textarea
+                name="message"
+                id="message"
+                class="text-box"
+                placeholder="your message"
+                autocomplete="off"
+                required
+              ></textarea>
+              <button type="submit" class="m-btn" id="submit">
+                send
+                <i class="fas fa-envelope-open-text"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact Us Section -->
+    <!-- Start footer Section -->
+    <footer>
+      <div class="container">
+        <div class="info">
+          <h3>KOADRO</h3>
+          <div class="info-text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea
+              delectus pariatur, numquam aperiam dolore nam optio dolorem
+              facilis itaque voluptatum recusandae deleniti minus animi.
+            </p>
+          </div>
+        </div>
+        <div class="about-us">
+          <h3>about us</h3>
+          <div><i class="fas fa-location-dot"></i> Address, City, Country</div>
+          <div><i class="fas fa-at"></i> Contact@email.com</div>
+          <div><i class="fas fa-phone"></i> +201-000-000-000</div>
+        </div>
+      </div>
+      <div class="newsletter">
+        <div class="container f-around">
+          <div class="news-icons f-center">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+          <form action="#" method="post">
+            <input
+              type="email"
+              name="newsletterEmail"
+              placeholder="Your Email"
+            />
+            <button type="submit">subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="container">
+          <p>copyright 2022 &COPY; KOADRO | All Rights Reserve</p>
+          <p>
+            spicial thanks to
+            <a href="https://www.elzero.org/">Eng: Osama Elzero</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer Section -->
+    <!-- ________________ javaScript ________________ -->
+    <!-- main script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
